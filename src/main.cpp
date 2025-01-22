@@ -35,22 +35,12 @@ void setup() {
   Serial.print(humidity);
   Serial.println("%");
 
-  esp_deep_sleep_start();
+  esp_deep_sleep_start();//met le deep sleep en marche
 
 }
 
 void loop() {
-  // Effectuer une mesure toutes les 5s
-  
-  // Afficher l'humidité relative avec un peu de formatage
 
-  // Afficher la température avec un peu de formatage
-
-  // Lecture des valeurs du capteur
-  
-    
-  // Vérification si la lecture a réussi
-  
   Serial.println("CA MARCHE PAS (si tu vois ça :)!!!");//c'est vide, c'était juste pour vérif
   delay(5000); 
 }
